@@ -1,0 +1,20 @@
+.project-container {
+    transition: box-shadow 0.3s ease-in-out;
+    }
+
+.project-container:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-container:hover {
+    transform: scale(1.1);
+}
+
+.contact-icon {
+    transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
